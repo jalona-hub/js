@@ -1,5 +1,18 @@
 # @thirdweb-dev/react-core
 
+## 3.14.0
+
+### Patch Changes
+
+- [#1150](https://github.com/thirdweb-dev/js/pull/1150) [`d60e544a`](https://github.com/thirdweb-dev/js/commit/d60e544a240b93312743e62096ee2dc77d0c1bd1) Thanks [@adam-maj](https://github.com/adam-maj)! - Add support for multipled logged in accounts and token refreshing to auth
+
+- [#1165](https://github.com/thirdweb-dev/js/pull/1165) [`088f2567`](https://github.com/thirdweb-dev/js/commit/088f2567f615360edd44776b20ae0bedff250f43) Thanks [@adam-maj](https://github.com/adam-maj)! - Include chain id in login payload
+
+- Updated dependencies [[`cc20f93e`](https://github.com/thirdweb-dev/js/commit/cc20f93e178d86ee2b3f39102bbb0811de211f05), [`654b8ab3`](https://github.com/thirdweb-dev/js/commit/654b8ab35184e02127a5a47f05d78606dd5b29ca), [`12b07aad`](https://github.com/thirdweb-dev/js/commit/12b07aad9ae3176daf9d05864247d4806a16c9d2), [`01293857`](https://github.com/thirdweb-dev/js/commit/01293857fac8531bd94764203cd24b3daa4db51f), [`329bccec`](https://github.com/thirdweb-dev/js/commit/329bccec4b88b02db5bac6c1415158928843376a)]:
+  - @thirdweb-dev/chains@0.1.21
+  - @thirdweb-dev/wallets@0.3.0
+  - @thirdweb-dev/sdk@3.10.22
+
 ## 3.13.1
 
 ### Patch Changes

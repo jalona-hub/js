@@ -1,5 +1,11 @@
 # @thirdweb-dev/chains
 
+## 0.1.21
+
+### Patch Changes
+
+- [#1074](https://github.com/thirdweb-dev/js/pull/1074) [`cc20f93e`](https://github.com/thirdweb-dev/js/commit/cc20f93e178d86ee2b3f39102bbb0811de211f05) Thanks [@Marfuen](https://github.com/Marfuen)! - Enhance CLI Install command and update chains
+
 ## 0.1.20
 
 ### Patch Changes

@@ -1,5 +1,36 @@
 # @thirdweb-dev/wallets
 
+## 0.3.0
+
+### Minor Changes
+
+- [#1160](https://github.com/thirdweb-dev/js/pull/1160) [`654b8ab3`](https://github.com/thirdweb-dev/js/commit/654b8ab35184e02127a5a47f05d78606dd5b29ca) Thanks [@zerts](https://github.com/zerts)! - Add Zerion Wallet
+
+### Patch Changes
+
+- [#1000](https://github.com/thirdweb-dev/js/pull/1000) [`329bccec`](https://github.com/thirdweb-dev/js/commit/329bccec4b88b02db5bac6c1415158928843376a) Thanks [@goosewobbler](https://github.com/goosewobbler)! - '[Wallets/React] Adds Frame as a supported wallet.'
+
+  You can now use Frame by adding `frameWallet()` in the ThirdwebProvider's `supportedWallets` prop.
+
+  ```javascript
+  import {
+    ThirdwebProvider,
+    localWallet,
+    frameWallet,
+  } from "@thirdweb-dev/react";
+
+  <ThirdwebProvider
+    activeChain={activeChain}
+    supportedWallets={[frameWallet(), localWallet()]}
+  >
+    <App />
+  </ThirdwebProvider>;
+  ```
+
+- Updated dependencies [[`cc20f93e`](https://github.com/thirdweb-dev/js/commit/cc20f93e178d86ee2b3f39102bbb0811de211f05), [`12b07aad`](https://github.com/thirdweb-dev/js/commit/12b07aad9ae3176daf9d05864247d4806a16c9d2), [`01293857`](https://github.com/thirdweb-dev/js/commit/01293857fac8531bd94764203cd24b3daa4db51f)]:
+  - @thirdweb-dev/chains@0.1.21
+  - @thirdweb-dev/sdk@3.10.22
+
 ## 0.2.26
 
 ### Patch Changes

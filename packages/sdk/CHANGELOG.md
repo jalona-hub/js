@@ -1,5 +1,16 @@
 # @thirdweb-dev/sdk
 
+## 3.10.22
+
+### Patch Changes
+
+- [#1167](https://github.com/thirdweb-dev/js/pull/1167) [`12b07aad`](https://github.com/thirdweb-dev/js/commit/12b07aad9ae3176daf9d05864247d4806a16c9d2) Thanks [@kienngo98](https://github.com/kienngo98)! - Reduce circular dependencies
+
+- [#1175](https://github.com/thirdweb-dev/js/pull/1175) [`01293857`](https://github.com/thirdweb-dev/js/commit/01293857fac8531bd94764203cd24b3daa4db51f) Thanks [@MananTank](https://github.com/MananTank)! - - enable no-cycle eslint rule
+  - various tree-shaking improvements
+- Updated dependencies [[`cc20f93e`](https://github.com/thirdweb-dev/js/commit/cc20f93e178d86ee2b3f39102bbb0811de211f05)]:
+  - @thirdweb-dev/chains@0.1.21
+
 ## 3.10.21
 
 ### Patch Changes
